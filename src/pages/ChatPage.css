@@ -1,0 +1,29 @@
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ece5dd; /* Color de fondo para toda la página del chat */
+  }
+  
+  .messages-container {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: auto; /* Permite el desplazamiento si es necesario */
+  }
+  
+  .messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre mensajes */
+  }
+  
+  .message-input {
+    border-top: 1px solid #ddd;
+    background-color: #ffffff; /* Fondo blanco para el área de entrada */
+    padding: 10px;
+  }
+  

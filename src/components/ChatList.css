@@ -1,0 +1,67 @@
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f0f0f0; /* Color de fondo claro */
+    height: 100vh;
+    overflow-y: auto; /* Habilita el desplazamiento vertical si hay demasiados chats */
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    border-radius: 8px; /* Bordes redondeados para un diseño más moderno */
+  }
+  
+  .chat-item:hover {
+    background-color: #e0f7fa; /* Color de fondo en hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
+  }
+  
+  .avatar-container {
+    margin-right: 15px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Imagen circular */
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+  }
+  
+  .chat-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .chat-time {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .chat-preview {
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Muestra puntos suspensivos si el mensaje es largo */
+  }
+  

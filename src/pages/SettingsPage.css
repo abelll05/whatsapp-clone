@@ -1,0 +1,14 @@
+.settings-page {
+    padding: 20px;
+  }
+  
+  .settings-page h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .settings-page p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
